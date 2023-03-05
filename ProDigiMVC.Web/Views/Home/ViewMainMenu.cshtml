@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "ViewMainMenu";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Menu</title>
+</head>
+<body>
+    <div>
+        <h1>Menu</h1>
+        <p>Wybierz jedną z opcji:</p>
+        <ul>
+            <li>@Html.ActionLink("Produkty", "ViewListOfProducts", "Main")</li>
+            <li>@Html.ActionLink("Zamówienia", "ViewListOfOrders", "Main")</li>
+        </ul>
+    </div>
+</body>
+</html>
